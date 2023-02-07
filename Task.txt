@@ -1,20 +1,20 @@
-янв 28, 2023 3:01:48 PM Homework2.program2 babblSort
-INFO: [99, 42, 28, 88, 27, 23, 89, 91, 34, 6]
-янв 28, 2023 3:01:48 PM Homework2.program2 babblSort
-INFO: [99, 42, 88, 28, 27, 89, 91, 34, 23, 6]
-янв 28, 2023 3:01:48 PM Homework2.program2 babblSort
-INFO: [99, 88, 42, 28, 89, 91, 34, 27, 23, 6]
-янв 28, 2023 3:01:48 PM Homework2.program2 babblSort
-INFO: [99, 88, 42, 89, 91, 34, 28, 27, 23, 6]
-янв 28, 2023 3:01:48 PM Homework2.program2 babblSort
-INFO: [99, 88, 89, 91, 42, 34, 28, 27, 23, 6]
-янв 28, 2023 3:01:48 PM Homework2.program2 babblSort
-INFO: [99, 89, 91, 88, 42, 34, 28, 27, 23, 6]
-янв 28, 2023 3:01:48 PM Homework2.program2 babblSort
-INFO: [99, 91, 89, 88, 42, 34, 28, 27, 23, 6]
-янв 28, 2023 3:01:48 PM Homework2.program2 babblSort
-INFO: [99, 91, 89, 88, 42, 34, 28, 27, 23, 6]
-янв 28, 2023 3:01:48 PM Homework2.program2 babblSort
-INFO: [99, 91, 89, 88, 42, 34, 28, 27, 23, 6]
-янв 28, 2023 3:01:48 PM Homework2.program2 babblSort
-INFO: [99, 91, 89, 88, 42, 34, 28, 27, 23, 6]
+янв 31, 2023 9:03:10 PM Homework2.program2 babblSort
+INFO: [68, 76, 57, 38, 14, 83, 66, 16, 46, 0]
+янв 31, 2023 9:03:10 PM Homework2.program2 babblSort
+INFO: [76, 68, 57, 38, 83, 66, 16, 46, 14, 0]
+янв 31, 2023 9:03:10 PM Homework2.program2 babblSort
+INFO: [76, 68, 57, 83, 66, 38, 46, 16, 14, 0]
+янв 31, 2023 9:03:10 PM Homework2.program2 babblSort
+INFO: [76, 68, 83, 66, 57, 46, 38, 16, 14, 0]
+янв 31, 2023 9:03:10 PM Homework2.program2 babblSort
+INFO: [76, 83, 68, 66, 57, 46, 38, 16, 14, 0]
+янв 31, 2023 9:03:10 PM Homework2.program2 babblSort
+INFO: [83, 76, 68, 66, 57, 46, 38, 16, 14, 0]
+янв 31, 2023 9:03:10 PM Homework2.program2 babblSort
+INFO: [83, 76, 68, 66, 57, 46, 38, 16, 14, 0]
+янв 31, 2023 9:03:10 PM Homework2.program2 babblSort
+INFO: [83, 76, 68, 66, 57, 46, 38, 16, 14, 0]
+янв 31, 2023 9:03:10 PM Homework2.program2 babblSort
+INFO: [83, 76, 68, 66, 57, 46, 38, 16, 14, 0]
+янв 31, 2023 9:03:10 PM Homework2.program2 babblSort
+INFO: [83, 76, 68, 66, 57, 46, 38, 16, 14, 0]
