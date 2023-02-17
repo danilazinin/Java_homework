@@ -1,33 +1,33 @@
 package Homework5;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
 public class program1 {
+    public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         Map<String, List<String>> phonBook = new HashMap<>();
-        phonBook.put("Lena", args.asList("8 926 333 33 33", "8 926 222 22 99"));
-        phonBook.put("Ira", args.asList("8 926 333 33 55", "8 926 222 22 00"));
-        phonBook.put("Igor", args.asList("8 926 333 33 66", "8 926 222 22 44"));
-        phonBook.put("Petr", args.asList("8 926 333 33 77", "8 926 222 22 11"));
-        phonBook.put("Dima", args.asList("8 926 333 33 88", "8 926 222 22 22"));
+        phonBook.put("Lena", Arrays.asList("8 926 333 33 33", "8 926 222 22 99"));
+        phonBook.put("Ira", Arrays.asList("8 926 333 33 55", "8 926 222 22 00"));
+        phonBook.put("Igor", Arrays.asList("8 926 333 33 66", "8 926 222 22 44"));
+        phonBook.put("Petr", Arrays.asList("8 926 333 33 77", "8 926 222 22 11"));
+        phonBook.put("Dima", Arrays.asList("8 926 333 33 88", "8 926 222 22 22"));
 
         menu(phonBook);
 
     }
 
     public static String scanner() {
-        Scanner scanner = new Scanner(System.in);
         String scan = scanner.nextLine();
-        scanner.close();
         return scan;
     }
 
     public static void find(Map<String, List<String>> phonBook) {
-        System.out.println("Введите имя: ");
+        System.out.println("Р’РІРµРґРёС‚Рµ РёРјСЏ: ");
         String name = scanner();
         System.out.println(phonBook.get(name));
     }
@@ -38,7 +38,7 @@ public class program1 {
     }
 
     public static Map<String, List<String>> add(Map<String, List<String>> phonBook) {
-        System.out.println("Если хотите выйте хотите перестать вводить номера введите 'stop'");
+        System.out.println("Если хотите выйте хотите перестать вводить номера введите 'stop''");
         System.out.println("Введите имя: ");
         String name = scanner();
         List<String> number = new ArrayList<>();
@@ -57,11 +57,12 @@ public class program1 {
     }
 
     public static Map<String, List<String>> menu(Map<String, List<String>> phonBook) {
-        System.out.println(
-                "Введите команду из списка: find - найти контакт, add - добавить контакт, all - показать всю телефонную книгу, exit - выйти");
         while (true) {
+            System.out.println(
+                "Введите команду из списка: find - найти контакт, add - добавить контакт, all - показать всю телефонную книгу, exit - выйти");
             String comands = scanner();
             if (comands.equals("exit")) {
+                scanner.close();
                 break;
             } else {
                 switch (comands) {
